@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakao Talk - profile</title>
+</head>
+<style>
+    .wrap {
+        width: 480px;
+        height: 800px;
+        border: solid 1px darkgray;
+
+
+    }
+
+    .top {
+        height: 500px;
+        background-color: #ffe4b5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*position: relative;*/
+
+    }
+
+    .top > p {
+        color: white;
+        text-align: center;
+    }
+
+    .profile {
+        position: relative;
+    }
+    .profile > .image {
+        text-align: center;
+    }
+
+    .image > img {
+        width: 150px;
+        height: 150px;
+        border-radius: 70%;
+        /*overflow: hidden;*/
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    .img > p {
+        margin-top: 90px;
+    }
+
+    .lower {
+        height: 300px;
+
+    }
+
+    .lower > .icons-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lower > .icons-box > .icons {
+        width: 60px;
+        height: 80px;
+        float: left;
+        margin: 150px 10px;
+    }
+
+    .lower > .icons-box > .icons > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .lower > .icons-box > .icons > p {
+        font-size: 10px;
+
+    }
+
+</style>
+
+<body>
+<div class="wrap">
+    <div class="top">
+        <p>춘식이는 고구마를 좋아해 😋
+        </p>
+    </div>
+    <div class="profile">
+        <div class="image">
+            <img src="./icons/4.jpg" alt="">
+            <p> 춘식이 </p>
+        </div>
+    </div>
+    <div class="lower">
+        <div class="icons-box">
+            <div class="icons">
+                <img src="./icons/mechat.png">
+                <p>나와의 채팅</p>
+            </div>
+            <div class="icons">
+                <img src="./icons/profileadmin.png">
+                <p>프로필 관리</p>
+            </div>
+            <div class="icons">s
+                <img src="./icons/kakaostory.png">
+                <p>카카오스토리</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

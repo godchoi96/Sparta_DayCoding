@@ -1,0 +1,6 @@
+@import "index.css";
+@import "mychat.css";
+
+* {
+    font-family: 'Sunflower', sans-serif;
+}

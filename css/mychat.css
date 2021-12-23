@@ -1,0 +1,16 @@
+.mychat_whole {
+    width: 480px;
+    height : 940px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mychat_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mychat_title > p {
+
+}
