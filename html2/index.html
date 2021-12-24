@@ -7,175 +7,148 @@
     <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="insta-wrapper">
-
-        <!-- 인스타그램 상단부분 -->
-        <div class="insta-status-bar">
-            <div class="insta-status-bar__img">
-                <img src="image/camera3x.png" />
-            </div>
-            <div class="insta-status-bar__img">
-                <img src="image/insta-logo.png" style="height:40px;"/>
-            </div>
-            <div class="insta-status-bar__img">
-                <img src="image/dm@3x.png" />
-            </div>
+    <div id="main">
+        <!-- 인스타그램 상태바 -->
+        <div id="status-bar">
+            <img class="status-bar-icon" src="image/camera3x.png" />
+            <img id="logo" src="image/insta-logo.png"/>
+            <img class="status-bar-icon" src="image/dm@3x.png" />
         </div>
 
-        <!--    스토리 부분    -->
-        <div id="insta-container">
-            <div class="insta-container__column">
-                <div class="insta-container__column-img">
-                    <img src="image/karina.jpg" style="width:60px; height: 60px;"/>
+        <!--   스토리 부분   -->
+        <div id="container">
+            <div id="story-container">
+                <div class="story-wrapper">
+                    <div class="story-off">
+                        <img src="image/karina.jpg"/>
+                    </div>
                     <p>카리나</p>
                 </div>
-                <div class="insta-container__column-img">
-                    <img src="image/winter.jpg" style="width:60px; height: 60px;"/>
+                <div class="story-wrapper">
+                    <div class="story-on">
+                        <img src="image/winter.jpg"/>
+                    </div>
                     <p>윈터</p>
                 </div>
-                <div class="insta-container__column-img">
-                    <img src="image/zizel.jpg" style="width:60px; height: 60px;"/>
+                <div class="story-wrapper">
+                    <div class="story-on">
+                        <img src="image/zizel.jpg"/>
+                    </div>
                     <p>지젤</p>
                 </div>
-                <div class="insta-container__column-img">
-                    <img src="image/ningning.jpg" style="width:60px; height: 60px;"/>
+                <div class="story-wrapper">
+                    <div class="story-off">
+                        <img src="image/ningning.jpg"/>
+                    </div>
                     <p>닝닝</p>
                 </div>
-                <div class="insta-container__column-img">
-                    <img src="image/choi.jpg" style="width:60px; height: 60px;"/>
+                <div class="story-wrapper">
+                    <div class="story-on">
+                        <img src="image/choi.jpg"/>
+                    </div>
+                    <p>최승대</p>
+                </div>
+                <div class="story-wrapper">
+                    <div class="story-on">
+                        <img src="image/choi.jpg"/>
+                    </div>
+                    <p>최승대</p>
+                </div>
+                <div class="story-wrapper">
+                    <div class="story-on">
+                        <img src="image/choi.jpg"/>
+                    </div>
                     <p>최승대</p>
                 </div>
             </div>
         </div>
 
-        <div id="insta-container__user">
-            <div class="insta-container__user">
-                <div class="insta-container__user-img">
-                    <img src="image/choi.jpg" style="width: 60px; height: 60px;"/>
-                    <p>최승대</p>
+        <div id="post-container">
+            <div class="post-wrapper">
+                <div class="post-header">
+                    <div class="left-wrapper">
+                        <img src="image/choi.jpg"/>
+                        <p>최승대</p>
+                    </div>
+                    <div class="right-wrapper">
+                        <img src="image/more@3x.png"/>
+                    </div>
                 </div>
-                <img src="image/more@3x.png"/>
-            </div>
-        </div>
-
-        <div id="insta-container__image">
-            <div class="insta-container__image">
-                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MDhfOTEg%2FMDAxNjIzMTUxMDQ4ODg2.OdExgdzDX_dpHQACSTJ0422lQ8f9VHueK9nV4_JFCtIg.lLPXRYfX6xxmSepzY4yfyflZ9qR7WlLx04afjqrJyE4g.JPEG.geumbi0419%2Fresized_IMG_3895.jpg&type=sc960_832" style="max-width: 800px; width: 100%; height: auto;"/>
-            </div>
-            <div class="insta-container__like">
-                <div class="insta-container__like-img">
-                    <img src="image/like@3x.png"/>
-                    <img src="image/comment@3x.png"/>
-                    <img src="image/dm@3x.png"/>
+                <div class="post-body">
+                    <img src="image/karina.jpg"/>
+                    <div class="post-icons-wrapper">
+                        <div class="left-wrapper">
+                            <img class="post-icon" src="image/like@3x.png"/>
+                            <img class="post-icon-2" src="image/comment@3x.png"/>
+                            <img class="post-icon" src="image/dm@3x.png"/>
+                        </div>
+                        <div class="right-wrapper">
+                            <img src="image/favorite@3x.png"/>
+                        </div>
+                    </div>
                 </div>
-                <img src="image/favorite@3x.png"/>
-            </div>
-        </div>
-
-        <div id="insta-container__final">
-            <div class="insta-container__final">
-                <img src="image/choi.jpg" style="width: 60px; height: 60px;"/>
-                <span><strong>최승대</strong>님 외 126,671명이 좋아합니다.</span>
-            </div>
-            <div class="insta-container__final-comment">
-                <span><strong>최승대</strong></span>
-                <span>에스파는 진짜 다 예쁘다!!!! 최고!!!</span>
-                <p>#에스파 #카리나 #윈터 #지젤 #닝닝 #존예</p>
-            </div>
-        </div>
-
-        <div id="insta-container__user">
-            <div class="insta-container__user">
-                <div class="insta-container__user-img">
-                    <img src="image/Karina.jpg" style="width: 60px; height: 60px;"/>
-                    <p>카리나</p>
+                <div class="post-footer">
+                    <div class="post-like-wrapper">
+                        <img src="image/choi.jpg"/>
+                        <p><strong>최승대</strong>님 <strong>외 126,671명</strong>이 좋아합니다.</p>
+                    </div>
+                    <div class="post-comment-wrapper">
+                        <p class="post-author">#카리나</p>
+                        <p class="post-content">#에스파 #윈터 #지젤 #닝닝 #존예</p>
+                    </div>
+                    <p class="post-time">
+                        8시간 전
+                    </p>
                 </div>
-                <img src="image/more@3x.png"/>
             </div>
-        </div>
-
-        <div id="insta-container__image">
-            <div class="insta-container__image">
-                <img src="http://file3.instiz.net/data/file3/2021/12/09/a/0/5/a0519a2665412ec9e8c0e42244c5a7a1.jpg" style="max-width: 800px; width: 100%; height: auto;"/>
-            </div>
-            <div class="insta-container__like">
-                <div class="insta-container__like-img">
-                    <img src="image/like@3x.png"/>
-                    <img src="image/comment@3x.png"/>
-                    <img src="image/dm@3x.png"/>
+            <div class="post-wrapper">
+                <div class="post-header">
+                    <div class="left-wrapper">
+                        <img src="image/choi.jpg"/>
+                        <p>최승대</p>
+                    </div>
+                    <div class="right-wrapper">
+                        <img src="image/more@3x.png"/>
+                    </div>
                 </div>
-                <img src="image/favorite@3x.png"/>
-            </div>
-        </div>
-
-        <div id="insta-container__final">
-            <div class="insta-container__final">
-                <img src="image/Karina.jpg" style="width: 60px; height: 60px;"/>
-                <span><strong>카리나</strong>님 외 523,171명이 좋아합니다.</span>
-            </div>
-            <div class="insta-container__final-comment">
-                <span><strong>카리나</strong></span>
-                <span>코로나에도 마스크는 필수입니다! 여러분들도 몸 조심하세요~</span>
-                <p>#에스파 #카리나 #윈터 #지젤 #닝닝</p>
-            </div>
-        </div>
-
-        <div id="insta-container__user">
-            <div class="insta-container__user">
-                <div class="insta-container__user-img">
-                    <img src="image/winter.jpg" style="width: 60px; height: 60px;"/>
-                    <p>윈터</p>
+                <div class="post-body">
+                    <img src="image/winter2.jpg"/>
+                    <div class="post-icons-wrapper">
+                        <div class="left-wrapper">
+                            <img class="post-icon" src="image/like@3x.png"/>
+                            <img class="post-icon-2" src="image/comment@3x.png"/>
+                            <img class="post-icon" src="image/dm@3x.png"/>
+                        </div>
+                        <div class="right-wrapper">
+                            <img src="image/favorite@3x.png"/>
+                        </div>
+                    </div>
                 </div>
-                <img src="image/more@3x.png"/>
-            </div>
-        </div>
-
-        <div id="insta-container__image">
-            <div class="insta-container__image">
-                <img src="image/winter2.jpg" style="max-width: 800px; width: 100%; height: auto;"/>
-            </div>
-            <div class="insta-container__like">
-                <div class="insta-container__like-img">
-                    <img src="image/like@3x.png"/>
-                    <img src="image/comment@3x.png"/>
-                    <img src="image/dm@3x.png"/>
+                <div class="post-footer">
+                    <div class="post-like-wrapper">
+                        <img src="image/winter.jpg"/>
+                        <p><strong>윈터</strong>님 <strong>외 6,6671명</strong>이 좋아합니다.</p>
+                    </div>
+                    <div class="post-comment-wrapper">
+                        <p class="post-author">#카리나</p>
+                        <p class="post-content">이젠 누가 더 예쁘지?</p>
+                    </div>
+                    <p class="post-time">
+                        10시간 전
+                    </p>
                 </div>
-                <img src="image/favorite@3x.png"/>
             </div>
         </div>
 
-        <div id="insta-container__final">
-            <div class="insta-container__final">
-                <img src="image/winter.jpg" style="width: 60px; height: 60px;"/>
-                <span ><strong>윈터</strong>님 외 246,301명이 좋아합니다. </span>
-            </div>
-            <div class="insta-container__final-comment">
-                <span><strong>윈터</strong></span>
-                <span>누가누가 더 예쁘지?</span>
-            </div>
-        </div>
-
-        <div class="insta-nav">
-            <div class="insta-nav__img">
+        <div id="nav">
+            <div id="icon-wrapper">
                 <img src="image/home@3x.png"/>
-            </div>
-            <div class="insta-nav__img">
                 <img src="image/search@3x.png"/>
-            </div>
-            <div class="insta-nav__img">
                 <img src="image/trending@3x.png"/>
-            </div>
-            <div class="insta-nav__img">
                 <img src="image/like@3x.png"/>
-            </div>
-            <div class="insta-nav__img">
                 <img src="image/home@3x.png"/>
             </div>
         </div>
     </div>
-
-
-
-
 </body>
 </html>
