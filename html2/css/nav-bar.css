@@ -1,0 +1,11 @@
+.insta-nav {
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-around;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: white;
+}
