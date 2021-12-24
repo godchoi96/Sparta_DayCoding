@@ -16,4 +16,3 @@
   - status-bar.css - 인스타그램 페이지 윗 상태바 CSS
   - style.css - CSS 관리 페이지
  
-재사용성이 있는 부분은 CSS 부분을 따로 구분지어 style.css 기점으로 import 시켰습니다.
