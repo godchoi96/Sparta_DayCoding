@@ -1,3 +1,18 @@
-# Daytest
+# Team Sparta Daytest
 
-python 파일을 제외하고 나머지 파일이 html 파일입니다. index.html이 메인페이지이며 다른 페이지는 현재 구현되지 않았습니다. 
+### python 
+알고리즘 문제를 풀며 문제해결 능력을 풀어나갑니다.
+
+### html1
+카카오톡 클론코딩
+
+### html2
+반응형 웹페이지 인스타그램 클론코딩
+
+1. index.html - 메인 페이지
+2. css
+  - index.css - 메인 페이지 CSS
+  - nav-bar.css - 인스타그램 페이지 아래 네비게이션 CSS
+  - status-bar.css - 인스타그램 페이지 윗 상태바 CSS
+  - style.css - CSS 관리 페이지
+ 
