@@ -2,20 +2,21 @@
 <html lang="kr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0">
     <title>Aespagram</title>
-    <link rel="stylesheet" type="text/css" href = "css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="main">
-        <!-- 인스타그램 상태바 -->
-        <div id="status-bar">
-            <img class="status-bar-icon" src="image/camera3x.png" />
-            <img id="logo" src="image/insta-logo.png"/>
-            <img class="status-bar-icon" src="image/dm@3x.png" />
-        </div>
 
-        <!--   스토리 부분   -->
+<body>
+<div id="main">
+    <!--  모바일  -->
+    <div class="mobile">
+        <div class="status-bar">
+            <img class="status-bar-icon" src="image/camera3x.png"/>
+            <img id="logo" src="image/insta-logo.png"/>
+            <img class="status-bar-icon" src="image/dm@3x.png"/>
+        </div>
         <div id="container">
             <div id="story-container">
                 <div class="story-wrapper">
@@ -61,81 +62,80 @@
                     <p>최승대</p>
                 </div>
             </div>
-        </div>
-
-        <div id="post-container">
-            <div class="post-wrapper">
-                <div class="post-header">
-                    <div class="left-wrapper">
-                        <img src="image/choi.jpg"/>
-                        <p>최승대</p>
-                    </div>
-                    <div class="right-wrapper">
-                        <img src="image/more@3x.png"/>
-                    </div>
-                </div>
-                <div class="post-body">
-                    <img src="image/karina.jpg"/>
-                    <div class="post-icons-wrapper">
+            <div id="post-container">
+                <div class="post-wrapper">
+                    <div class="post-header">
                         <div class="left-wrapper">
-                            <img class="post-icon" src="image/like@3x.png"/>
-                            <img class="post-icon-2" src="image/comment@3x.png"/>
-                            <img class="post-icon" src="image/dm@3x.png"/>
+                            <img src="image/choi.jpg"/>
+                            <p>최승대</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="image/favorite@3x.png"/>
+                            <img src="image/more@3x.png"/>
                         </div>
                     </div>
+                    <div class="post-body">
+                        <img src="image/karina.jpg"/>
+                        <div class="post-icons-wrapper">
+                            <div class="left-wrapper">
+                                <img class="post-icon" src="image/like@3x.png"/>
+                                <img class="post-icon-2" src="image/comment@3x.png"/>
+                                <img class="post-icon" src="image/dm@3x.png"/>
+                            </div>
+                            <div class="right-wrapper">
+                                <img src="image/favorite@3x.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-like-wrapper">
+                            <img src="image/choi.jpg"/>
+                            <p><strong>최승대</strong>님 <strong>외 126,671명</strong>이 좋아합니다.</p>
+                        </div>
+                        <div class="post-comment-wrapper">
+                            <p class="post-author">#카리나</p>
+                            <p class="post-content">#에스파 #윈터 #지젤 #닝닝 #존예</p>
+                        </div>
+                        <p class="post-time">
+                            8시간 전
+                        </p>
+                    </div>
                 </div>
-                <div class="post-footer">
-                    <div class="post-like-wrapper">
-                        <img src="image/choi.jpg"/>
-                        <p><strong>최승대</strong>님 <strong>외 126,671명</strong>이 좋아합니다.</p>
-                    </div>
-                    <div class="post-comment-wrapper">
-                        <p class="post-author">#카리나</p>
-                        <p class="post-content">#에스파 #윈터 #지젤 #닝닝 #존예</p>
-                    </div>
-                    <p class="post-time">
-                        8시간 전
-                    </p>
-                </div>
-            </div>
-            <div class="post-wrapper">
-                <div class="post-header">
-                    <div class="left-wrapper">
-                        <img src="image/choi.jpg"/>
-                        <p>최승대</p>
-                    </div>
-                    <div class="right-wrapper">
-                        <img src="image/more@3x.png"/>
-                    </div>
-                </div>
-                <div class="post-body">
-                    <img src="image/winter2.jpg"/>
-                    <div class="post-icons-wrapper">
+                <div class="post-wrapper">
+                    <div class="post-header">
                         <div class="left-wrapper">
-                            <img class="post-icon" src="image/like@3x.png"/>
-                            <img class="post-icon-2" src="image/comment@3x.png"/>
-                            <img class="post-icon" src="image/dm@3x.png"/>
+                            <img src="image/choi.jpg"/>
+                            <p>최승대</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="image/favorite@3x.png"/>
+                            <img src="image/more@3x.png"/>
                         </div>
                     </div>
-                </div>
-                <div class="post-footer">
-                    <div class="post-like-wrapper">
-                        <img src="image/winter.jpg"/>
-                        <p><strong>윈터</strong>님 <strong>외 6,6671명</strong>이 좋아합니다.</p>
+                    <div class="post-body">
+                        <img src="image/winter2.jpg"/>
+                        <div class="post-icons-wrapper">
+                            <div class="left-wrapper">
+                                <img class="post-icon" src="image/like@3x.png"/>
+                                <img class="post-icon-2" src="image/comment@3x.png"/>
+                                <img class="post-icon" src="image/dm@3x.png"/>
+                            </div>
+                            <div class="right-wrapper">
+                                <img src="image/favorite@3x.png"/>
+                            </div>
+                        </div>
                     </div>
-                    <div class="post-comment-wrapper">
-                        <p class="post-author">#카리나</p>
-                        <p class="post-content">이젠 누가 더 예쁘지?</p>
+                    <div class="post-footer">
+                        <div class="post-like-wrapper">
+                            <img src="image/winter.jpg"/>
+                            <p><strong>윈터</strong>님 <strong>외 6,6671명</strong>이 좋아합니다.</p>
+                        </div>
+                        <div class="post-comment-wrapper">
+                            <p class="post-author">#카리나</p>
+                            <p class="post-content">이젠 누가 더 예쁘지?</p>
+                        </div>
+                        <p class="post-time">
+                            10시간 전
+                        </p>
                     </div>
-                    <p class="post-time">
-                        10시간 전
-                    </p>
                 </div>
             </div>
         </div>
@@ -150,5 +150,204 @@
             </div>
         </div>
     </div>
+
+    <!--  데스크탑  -->
+    <div class="desktop">
+        <nav class="status-bar-desktop">
+            <div class="status-bar-sub">
+                <img id="logo-sub" class="brand-img" src="image/insta-logo.png"/>
+                <input type="text" class="search-box" placeholder="검색">
+                <div class="status-bar-items">
+                    <img class="post-icon-sub-1" src="image/home@3x.png"/>
+                    <img class="post-icon-sub-1" src="image/dm@3x.png"/>
+                    <img class="post-icon-sub-1" src="image/trending@3x.png"/>
+                    <img class="post-icon-sub-1" src="image/like@3x.png"/>
+                </div>
+            </div>
+        </nav>
+        <section class="main">
+            <div class="wrapper">
+                <div class="left-container">
+                    <div class="story-container-sub">
+                        <div class="story-card">
+                            <div class="story-pic"><img src="image/karina.jpg"/></div>
+                            <p class="user-name">카리나</p>
+                        </div>
+                        <div class="story-card">
+                            <div class="story-pic"><img src="image/winter.jpg"/></div>
+                            <p class="user-name">윈터</p>
+                        </div>
+                        <div class="story-card">
+                            <div class="story-pic"><img src="image/zizel.jpg"/></div>
+                            <p class="user-name">지젤</p>
+                        </div>
+                        <div class="story-card">
+                            <div class="story-pic"><img src="image/ningning.jpg"/></div>
+                            <p class="user-name">닝닝</p>
+                        </div>
+                        <div class="story-card">
+                            <div class="story-pic"><img src="image/choi.jpg"/></div>
+                            <p class="user-name">최승대</p>
+                        </div>
+                        <div class="story-card">
+                            <div class="story-pic"><img src="image/choi.jpg"/></div>
+                            <p class="user-name">최승대</p>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <div class="left-wrapper">
+                                    <img src="image/choi.jpg"/>
+                                    <p>최승대</p>
+                                </div>
+                                <div class="right-wrapper">
+                                    <img src="image/more@3x.png"/>
+                                </div>
+                            </div>
+                            <div class="post-body">
+                                <img src="image/karina.jpg"/>
+                                <div class="post-icons-wrapper">
+                                    <div class="left-wrapper">
+                                        <img class="post-icon" src="image/like@3x.png"/>
+                                        <img class="post-icon-2" src="image/comment@3x.png"/>
+                                        <img class="post-icon" src="image/dm@3x.png"/>
+                                    </div>
+                                    <div class="right-wrapper">
+                                        <img src="image/favorite@3x.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-footer">
+                                <div class="post-like-wrapper">
+                                    <img src="image/choi.jpg"/>
+                                    <p><strong>최승대</strong>님 <strong>외 126,671명</strong>이 좋아합니다.</p>
+                                </div>
+                                <div class="post-comment-wrapper">
+                                    <p class="post-author">#카리나</p>
+                                    <p class="post-content">#에스파 #윈터 #지젤 #닝닝 #존예</p>
+                                </div>
+                                <p class="post-time">
+                                    8시간 전
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <div class="left-wrapper">
+                                    <img src="image/choi.jpg"/>
+                                    <p>최승대</p>
+                                </div>
+                                <div class="right-wrapper">
+                                    <img src="image/more@3x.png"/>
+                                </div>
+                            </div>
+                            <div class="post-body">
+                                <img src="image/winter2.jpg"/>
+                                <div class="post-icons-wrapper">
+                                    <div class="left-wrapper">
+                                        <img class="post-icon" src="image/like@3x.png"/>
+                                        <img class="post-icon-2" src="image/comment@3x.png"/>
+                                        <img class="post-icon" src="image/dm@3x.png"/>
+                                    </div>
+                                    <div class="right-wrapper">
+                                        <img src="image/favorite@3x.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-footer">
+                                <div class="post-like-wrapper">
+                                    <img src="image/winter.jpg"/>
+                                    <p><strong>윈터</strong>님 <strong>외 6,6671명</strong>이 좋아합니다.</p>
+                                </div>
+                                <div class="post-comment-wrapper">
+                                    <p class="post-author">#카리나</p>
+                                    <p class="post-content">이젠 누가 더 예쁘지?</p>
+                                </div>
+                                <p class="post-time">
+                                    10시간 전
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div id="follow">
+                        <div class="follow-header">
+                            <p class="left-wrapper">회원님을 위한 추천</p>
+                            <p class="right-wrapper">모두 보기</p>
+                        </div>
+                        <div class="follow-main">
+                            <div class="follow-main-prop">
+                                <div class="left-follow-main">
+                                    <img src="image/choi.jpg"/>
+                                    <div class="left-follow-main-name">
+                                        <p>최승대</p>
+                                        <p>최승대님이 팔로우합니다.</p>
+                                    </div>
+
+                                </div>
+                                <button>팔로우</button>
+                            </div>
+                        </div>
+                        <div class="follow-main">
+                            <div class="follow-main-prop">
+                                <div class="left-follow-main">
+                                    <img src="image/Karina.jpg"/>
+                                    <div class="left-follow-main-name">
+                                        <p>카리나</p>
+                                        <p>카리나님을 팔로우합니다.</p>
+                                    </div>
+
+                                </div>
+                                <button>팔로우</button>
+                            </div>
+                        </div>
+                        <div class="follow-main">
+                            <div class="follow-main-prop">
+                                <div class="left-follow-main">
+                                    <img src="image/winter.jpg"/>
+                                    <div class="left-follow-main-name">
+                                        <p>윈터</p>
+                                        <p>윈터님을 팔로우합니다.</p>
+                                    </div>
+
+                                </div>
+                                <button>팔로우</button>
+                            </div>
+                        </div>
+                        <div class="follow-main">
+                            <div class="follow-main-prop">
+                                <div class="left-follow-main">
+                                    <img src="image/zizel.jpg"/>
+                                    <div class="left-follow-main-name">
+                                        <p>지젤</p>
+                                        <p>지젤님을 팔로우합니다.</p>
+                                    </div>
+
+                                </div>
+                                <button>팔로우</button>
+                            </div>
+                        </div>
+                        <div class="follow-main">
+                            <div class="follow-main-prop">
+                                <div class="left-follow-main">
+                                    <img src="image/ningning.jpg"/>
+                                    <div class="left-follow-main-name">
+                                        <p>최승대</p>
+                                        <p>닝닝님을 팔로우합니다.</p>
+                                    </div>
+
+                                </div>
+                                <button>팔로우</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
 </body>
 </html>

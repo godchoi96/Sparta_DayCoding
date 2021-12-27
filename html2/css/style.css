@@ -1,14 +1,32 @@
 @import 'status-bar.css';
-@import 'index.css';
 @import 'nav-bar.css';
+@import 'index.css';
 
 * {
     font-family: 'Sunflower', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
 }
 
 body {
-    max-width: 720px;
-    margin: 0 auto;
-    height: auto;
-    margin-bottom: 90px;
+    width: 100%;
+    background: #fafafa;
+    position: relative;
+}
+
+@media (max-width: 650px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 650px) {
+    .mobile {
+        display: none;
+    }
 }

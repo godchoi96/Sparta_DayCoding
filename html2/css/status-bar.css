@@ -1,4 +1,5 @@
-#status-bar {
+/* -----------------------------------------모바일--------------------------------------- */
+.status-bar {
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -9,11 +10,73 @@
     border-bottom: 1px solid lightgray;
 }
 
-#status-bar .status-bar-icon {
+.status-bar .status-bar-icon {
     margin: 3% 5%;
     width: 6%;
 }
 
-#status-bar #logo {
+.status-bar #logo {
     width: 27%;
 }
+
+/* ---------------------------------------데스크탑--------------------------------------- */
+.desktop {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.status-bar-desktop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.status-bar-sub {
+    width: 70%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-img{
+    height: 100%;
+    margin-top: 5px;
+}
+
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.status-bar-items {
+    height: 22px;
+    position: relative;
+    transform: translateX(50%);
+}
+
+.post-icon-sub-1 {
+    height: 100%;
+    cursor: pointer;
+    margin: 0 10px;
+    display: inline-block;
+}
+
